@@ -1,0 +1,8 @@
+h1 Photobooth
+
+form(action="/snap", method="POST")
+  p How many frames?
+    input(type="Text", name="frames", value="4")
+  p How much time between frames
+    input(type="Text", name="interval", value="10")
+  input(type="submit", value="Snap!")
